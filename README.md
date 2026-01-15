@@ -32,6 +32,7 @@ Além disso, crie um arquivo `.env` na raiz do projeto com as seguintes variáve
     DB_USER=usuario_do_banco
     DB_PASSWORD=senha_do_banco
     ```
+    
 > O banco de dados informado deve existir previamente no PostgreSQL.
 
 # Como rodar o projeto
