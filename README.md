@@ -7,7 +7,7 @@ gerando um relatório detalhado do processamento.
   - Busca 150 usuários da API pública RandomUser.
   - Usuários menores de 18 anos são desconsiderados.
   - Os dados são armazenados em um banco PostgreSQL.
-  - Ao final do processamento, é gerado um relatório (no diretório /reportsFile) contendo:
+  - Ao final do processamento, é gerado um relatório no diretório `/reportsFile` contendo:
 
     - Total de registros processados.
     - Quantidade de usuários criados.
@@ -17,10 +17,13 @@ gerando um relatório detalhado do processamento.
 
 # Pré requisitos para rodar o projeto
 
+Antes de executar o projeto, certifique-se de que possui:
+
   - Node.js versão 18 ou superior.
   - PostgreSQL.
   - Git.
-  - Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
+
+Além disso, crie um arquivo `.env` na raiz do projeto com as seguintes variáveis de ambiente:
 
     ```dotenv
     DB_HOST=localhost
@@ -29,6 +32,7 @@ gerando um relatório detalhado do processamento.
     DB_USER=usuario_do_banco
     DB_PASSWORD=senha_do_banco
     ```
+> O banco de dados informado deve existir previamente no PostgreSQL.
 
 # Como rodar o projeto
 
@@ -53,3 +57,5 @@ npm install
 ```bash
 node src/server.js
 ```
+
+Após a execução, o script irá consumir a API, processar os usuários, persistir os dados no banco e gerar o relatório de processamento automaticamente.
