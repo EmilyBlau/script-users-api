@@ -28,7 +28,7 @@ Antes de executar o projeto, certifique-se de que possui:
 Além disso, crie um arquivo `.env` na raiz do projeto com as seguintes variáveis de ambiente:
 
 ```dotenv
-DB_HOST=localhost
+DB_HOST=seu_host
 DB_PORT=sua_porta
 DB_NAME=nome_do_banco
 DB_USER=usuario_do_banco
