@@ -59,3 +59,8 @@ node src/server.js
 ```
 
 Após a execução, o script irá consumir a API, processar os usuários, persistir os dados no banco e gerar o relatório de processamento automaticamente.
+
+## Considerações finais
+
+Este projeto foi desenvolvido com foco em organização de código, boas práticas e clareza, atendendo aos requisitos técnicos e funcionais propostos no desafio.
+
