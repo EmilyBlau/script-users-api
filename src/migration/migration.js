@@ -1,5 +1,4 @@
 import { client } from "../database/db.js";
-import { UserRepository } from "../repository/userRepository.js";
 
 export async function executeSchema(){
     await client.query(`
@@ -18,7 +17,4 @@ export async function executeSchema(){
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         updated_at TIMESTAMP DEFAULT NULL)
     `);
-
-    const a = await client.query(`select * from users`);
-    console.log("query = ", a);
 }

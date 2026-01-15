@@ -3,7 +3,6 @@ import { client } from "../database/db.js";
 import { Report } from "../reports/report.js";
 import { hashPassword } from "../utils/encryption.js";
 
-
 const userRepository = new UserRepository(client);
 
 export async function getRandomUsers() {
@@ -61,6 +60,4 @@ export async function getRandomUsers() {
     
     console.log('All users processed successfully!');
     return report;
-
-
 }
