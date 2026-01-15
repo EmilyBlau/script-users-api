@@ -25,14 +25,14 @@ Antes de executar o projeto, certifique-se de que possui:
 
 Além disso, crie um arquivo `.env` na raiz do projeto com as seguintes variáveis de ambiente:
 
-    ```dotenv
-    DB_HOST=localhost
-    DB_PORT=5432
-    DB_NAME=nome_do_banco
-    DB_USER=usuario_do_banco
-    DB_PASSWORD=senha_do_banco
-    ```
-    
+```dotenv
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=nome_do_banco
+DB_USER=usuario_do_banco
+DB_PASSWORD=senha_do_banco
+```
+> Os valores acima são apenas exemplos. Substitua pelas credenciais do seu ambiente local.
 > O banco de dados informado deve existir previamente no PostgreSQL.
 
 # Como rodar o projeto
