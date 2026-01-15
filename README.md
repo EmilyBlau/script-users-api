@@ -1,3 +1,5 @@
+# Sincronização de Usuários / RH
+
 # Sobre o projeto
 
 Este projeto consiste em uma aplicação Node.js que simula a sincronização de dados de usuários (RH), 
@@ -15,7 +17,7 @@ gerando um relatório detalhado do processamento.
     - Quantidade de usuários ignorados.
     - Erros encontrados (se houver).
 
-# Pré requisitos para rodar o projeto
+# Pré-requisitos para rodar o projeto
 
 Antes de executar o projeto, certifique-se de que possui:
 
