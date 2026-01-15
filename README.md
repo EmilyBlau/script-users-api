@@ -29,7 +29,7 @@ Além disso, crie um arquivo `.env` na raiz do projeto com as seguintes variáve
 
 ```dotenv
 DB_HOST=localhost
-DB_PORT=5432
+DB_PORT=sua_porta
 DB_NAME=nome_do_banco
 DB_USER=usuario_do_banco
 DB_PASSWORD=senha_do_banco
